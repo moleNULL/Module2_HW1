@@ -1,5 +1,12 @@
 ﻿namespace Module2_HW1
 {
+    public enum LoggerType
+    {
+        Error,
+        Info,
+        Warning
+    }
+
     // Singleton
     public class Logger
     {
