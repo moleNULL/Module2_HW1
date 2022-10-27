@@ -22,7 +22,7 @@
             {
                 if (_instance == null)
                 {
-                    return new Logger();
+                    _instance = new Logger();
                 }
 
                 return _instance;
